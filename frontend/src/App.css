@@ -1,0 +1,58 @@
+/* Ajustes globales para asegurar que la altura sea del 100% */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Ajusta el contenedor principal para ocupar el 100% de la altura disponible */
+  .main {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Estilo para el header y footer */
+  .Header, .Footer {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Ajuste para asegurar que el contenedor central es responsive */
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Ajusta según tu diseño */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Asegura que el carrusel ocupe el 100% del ancho disponible */
+  .carousel-container {
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    /* Ajustes específicos para pantallas pequeñas */
+    .heading {
+      font-size: 1.5rem;
+    }
+  
+    .heading p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+  

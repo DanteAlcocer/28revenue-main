@@ -1,0 +1,17 @@
+{
+  "name": "mern-erick",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.23.1",
+    "react-spinners": "^0.14.1"
+  }
+}
